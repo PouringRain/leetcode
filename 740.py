@@ -2,7 +2,7 @@
 
 #difficult: Medium
 # 题目：增加减少数，求最大赚取金额
-# 思路：四格向前滑动比较求出每个数字对应的最大值
+# 思路：dp
 
 class Solution:
     def deleteAndEarn(self, nums):
