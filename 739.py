@@ -1,7 +1,10 @@
 # coding=utf-8
 
+# difficult: Medium
 # temperatures = [73, 74, 75, 71, 69, 72, 76, 73]
 # output = [1, 1, 4, 2, 1, 1, 0, 0].
+# 题目：找出到晴天最近的距离
+# 思路：set结构存储天气和序号，每新到的天气，将比他小的天气最小距离求差。 普通n方复杂度过不了
 
 class Solution(object):
     def dailyTemperatures(self, temperatures):
