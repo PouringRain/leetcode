@@ -1,4 +1,6 @@
 # coding='utf-8'
+# level: medium
+# 思路：可以用dp来解，下面的方法不是。以单个数字或两个数字为中心向两边扩展
 class Solution:
     def countSubstrings(self, s):
         """
