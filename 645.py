@@ -1,3 +1,5 @@
+# level: easy
+
 class Solution:
     def findErrorNums(self, nums):
         """
