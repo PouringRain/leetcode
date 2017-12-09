@@ -1,7 +1,6 @@
 # coding=utf-8
 
-#difficult: Medium
-# 题目：增加减少数，求最大赚取金额
+#level: Medium
 # 思路：dp
 
 class Solution:
