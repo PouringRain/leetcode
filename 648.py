@@ -1,4 +1,7 @@
-#coding='utf-8'
+# coding='utf-8'
+# level:medium
+# 思路：字典树
+
 
 class Solution(object):
     def replaceWords(self, dict, sentence):
