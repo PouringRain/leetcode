@@ -15,12 +15,8 @@ class Solution:
         for i in range(len_nums):
             a[nums[i]] += 1
 
-        earn[1] = a[1]
-        earn[2] = a[2]*2
-        earn[3] = max(earn[1]+3*a[3], earn[2])
-
-        for i in range(4, len(a)):
-            earn[i] = max(earn[i-1], max(earn[i-2]+a[i]*i, earn[i-3]+a[i]*i))
+        for i in range(1, len(a)):
+            earn[i] = max(earn[i-1], earn[i-2]+a[i]*i)
 
 
         return max(earn)
