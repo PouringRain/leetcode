@@ -1,3 +1,7 @@
+# level: medium
+# 思路：邻接矩阵保存结点权值关系，迪杰斯特拉求出到各个结点的最短路径，最后取路径最大值
+# 二维数组的浅拷贝折磨我一下子。。。
+
 class Solution(object):
     def networkDelayTime(self, times, N, K):
         """
