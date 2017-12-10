@@ -1,3 +1,5 @@
+# level: easy
+
 class Solution(object):
     def nextGreatestLetter(self, letters, target):
         """
