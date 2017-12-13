@@ -1,3 +1,6 @@
+# level: medium
+# 思路：dfs 将节点设为子树和，统计出现最多的字数和
+
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
