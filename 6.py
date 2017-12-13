@@ -1,3 +1,6 @@
+# level: medium
+# 思路：将序列分组每组 epoch个，找出数学关系，按行打印
+
 class Solution(object):
     def convert(self, s, numRows):
         """
