@@ -1,3 +1,5 @@
+# level: eazy
+
 class Solution(object):
     def findWords(self, words):
         """
