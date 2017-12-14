@@ -1,3 +1,5 @@
+# level: eazy
+
 class Solution(object):
     def findMaxAverage(self, nums, k):
         """
