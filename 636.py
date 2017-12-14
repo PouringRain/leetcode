@@ -1,3 +1,6 @@
+# level: medium
+# 思路：栈结构存储开始时间戳，每一次到来的start/end都会对cpu使用产生影响，最重要的是前一个（prev）使用cpu的进程，更新其使用时间。
+
 class Solution(object):
     def exclusiveTime(self, n, logs):
         """
