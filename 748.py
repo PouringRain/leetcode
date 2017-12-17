@@ -1,3 +1,6 @@
+# level:eazy
+# 思路：构建字典对每个单词进行判定，选择最小长度
+
 class Solution(object):
     def shortestCompletingWord(self, licensePlate, words):
         """
