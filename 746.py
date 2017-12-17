@@ -1,3 +1,6 @@
+# level: eazy
+# 思路：dp[i] = cost[i]+min(dp[i-1],dp[i-2]) 
+
 class Solution(object):
     def minCostClimbingStairs(self, cost):
         """
