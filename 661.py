@@ -1,3 +1,6 @@
+# level:eazy
+# 思路：循环便利像素点进行计算，注意判断边界不要越界
+
 class Solution(object):
     def imageSmoother(self, M):
         """
