@@ -1,3 +1,6 @@
+# level:medium
+# 思路：说实话参考discuss中大神的算法，按行遍历，flag数组记录i,j列都是1的个数。
+
 class Solution(object):
     def countCornerRectangles(self, grid):
         """
