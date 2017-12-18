@@ -1,3 +1,6 @@
+# level:medium
+# 思路：广度遍历，计算二叉树每层最大宽度，取最大值
+
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
