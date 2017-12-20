@@ -1,3 +1,6 @@
+# level: medium
+# 思路：双向指针
+
 class Solution(object):
     def triangleNumber(self, nums):
         """
