@@ -1,3 +1,6 @@
+# level:eazy
+# 思路：递归，t1和t2统一合并到t1
+
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
