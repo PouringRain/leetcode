@@ -1,3 +1,5 @@
+level: eazy
+
 class Solution:
     def reachNumber(self, target):
         """
