@@ -4,7 +4,6 @@ class Solution(object):
         :type nums: List[int]
         :rtype: int
         """
-
         if len(nums) == 1:
             return 0
         m = max(nums)
