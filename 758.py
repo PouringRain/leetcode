@@ -5,6 +5,7 @@ class Solution(object):
         :type S: str
         :rtype: str
         """
+        
         l_s = len(S)
         t = [0] * l_s
         for word in words:
