@@ -10,6 +10,7 @@ class Solution(object):
                 return True
 
         return False
+    
 
 if __name__ == '__main__':
     ans = Solution()
