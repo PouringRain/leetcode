@@ -21,5 +21,4 @@ class Solution(object):
             p = p.next
             q.next = r
             r = q
-
         return r
