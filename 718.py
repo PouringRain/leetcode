@@ -5,6 +5,7 @@ class Solution(object):
         :type B: List[int]
         :rtype: int
         """
+        
         dp = [[0 for col in range(len(A) + 1)] for row in range(len(B) + 1)]
         # print dp
         ans = 0
