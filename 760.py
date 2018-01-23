@@ -6,6 +6,7 @@ class Solution(object):
         :rtype: List[int]
         """
         ans = []
+        
         for num in A:
             ans.append(B.index(num))
 
