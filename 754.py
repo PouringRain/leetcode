@@ -16,6 +16,7 @@ class Solution:
 
         return i
 
+    
 if __name__ == '__main__':
     ans = Solution()
     print(ans.reachNumber(2))
