@@ -15,6 +15,7 @@ class Solution(object):
         eh = head.next  # even head
         q, r = oh, eh
         p = eh.next
+        
         while p:
             q.next = p
             q = q.next
