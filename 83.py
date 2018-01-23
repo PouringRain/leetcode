@@ -17,4 +17,5 @@ class Solution(object):
                 p.next = p.next.next
             else:
                 p = p.next
+                
         return head
