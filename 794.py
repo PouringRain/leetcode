@@ -1,5 +1,6 @@
 # level: medium
 
+
 class Solution(object):
     def judge(self, a, c):
         if a[0][0] == a[0][1] == a[0][2] == c:
