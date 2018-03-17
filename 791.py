@@ -7,6 +7,7 @@ class Solution(object):
         """
         c = collections.Counter(T)
         ans = []
+        
         for w in S:
             ans.append(w * c[w])
             c[w] = 0
