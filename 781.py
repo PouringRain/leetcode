@@ -10,6 +10,7 @@ class Solution(object):
         if la == 0: return 0
         if la == 1: return answers[0] + 1
         c = collections.Counter(answers)
+        
         for k, num in c.items():
             if num == 1:
                 ans += k + 1
