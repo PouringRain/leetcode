@@ -7,6 +7,7 @@ class Solution(object):
         """
         x, y = target[0], target[1]
         p = abs(x) + abs(y)
+        
         for ghost in ghosts:
             dis_g = abs(ghost[0] - x) + abs(ghost[1] - y)
             if p >= dis_g:
