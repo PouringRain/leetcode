@@ -18,6 +18,7 @@ class Solution(object):
         """
         if root.left:
             self.minDiffInBST(root.left)
+            
         self.k = min(self.k, root.val - self.pre)
         self.pre = root.val
         if root.right:
