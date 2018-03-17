@@ -10,6 +10,7 @@ class Solution(object):
         for x, y in edges:
             if m < max(x, y):
                 m = max(x, y)
+                
         pre = [i for i in range(m + 1)]
 
         def find(r):
