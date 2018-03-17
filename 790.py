@@ -7,6 +7,7 @@ class Solution(object):
         if N == 1: return 1
 
         a, b, c = 1, 1, 2
+        
         for i in range(3, N + 1):
             t = b
             b = c
