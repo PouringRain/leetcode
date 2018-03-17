@@ -42,5 +42,4 @@ class Solution(object):
             else:
                 q += 1
             if p == len(s) - 1: return True
-      
         return False
