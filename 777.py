@@ -17,7 +17,6 @@ class Solution(object):
                 if t > i:
                     return False
                 t += 1
-
         t = 0
         for i in range(len(start)):
             if start[i] == 'R':
