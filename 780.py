@@ -25,6 +25,7 @@ class Solution(object):
                     return (ty - sy) % tx == 0
 
         return tx == sx and ty == sy
+    
 
 if __name__ == '__main__':
     ans = Solution()
