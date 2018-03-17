@@ -11,6 +11,7 @@ class Solution(object):
             return self.kthGrammar(N, (K+1)//2)
         else:
             return 1-self.kthGrammar(N, K//2)
+        
 
 if __name__ == '__main__':
     ans = Solution()
