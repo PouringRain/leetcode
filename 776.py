@@ -15,6 +15,7 @@ class Solution(object):
         :rtype: List[TreeNode]
         """
         if root==None: return [None, None]
+        
         if root.val==V:
             p = root.right
             root.right = None
