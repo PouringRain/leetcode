@@ -25,3 +25,22 @@ class Solution(object):
 
         travel(root)
         return res
+    
+    # 非递归实现
+class Solution(object):
+    def inorderTraversal(self, root):
+        """
+        :type root: TreeNode
+        :rtype: List[int]
+        """
+        stack = []
+        cur, res = root, []
+        while cur!=None or stack:
+            while cur!=None:
+                stack.append(cur)
+                cur = cur.left
+            cur = stack.pop()
+            res.append(cur.val)
+            cur = cur.right
+        
+        return res
