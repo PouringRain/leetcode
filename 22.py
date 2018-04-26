@@ -25,3 +25,29 @@ class Solution(object):
         gen(n, n, '', res)
 
         return res
+    
+# level: medium
+# solution: 
+#        1. 选择 加left/right
+#        2. 条件 left>0加左边 right>left加右边
+#        3. 结束 left=right=0  
+
+
+class Solution(object):
+    def generateParenthesis(self, n):
+        """
+        :type n: int
+        :rtype: List[str]
+        """
+        res = []
+        def traceback(path, left, right, res):
+            if left==right==0:
+                res.append(path)
+                return
+            if left>0:
+                traceback(path+'(', left-1, right, res)
+            if right>left:
+                traceback(path+')', left, right-1, res)
+        traceback('', n, n, res)
+        
+        return res
